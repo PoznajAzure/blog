@@ -60,7 +60,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Poznaj Azure"
   avatar : # "/assets/images/bio-photo.jpg"
   bio    : "Zestaw artykułów i pomysłów, które omawiamy w ramach inicjatywy 'Poznaj Azure'"
   links:
