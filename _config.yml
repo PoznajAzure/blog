@@ -61,32 +61,29 @@ plugins:
 author:
   name   : "First Lastname"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Zestaw artykułów i pomysłów, które omawiamy w ramach inicjatywy 'Poznaj Azure'"
   links:
-    - label: "Website"
+    - label: "WWW"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://poznajAzure.pl"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/PoznajAzure"
+    - label: "Gitter"
+      icon: "fab fa-fw fa-gitter"
+      url: "https://gitter.im/PoznajAzure"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "WWW"
+      icon: "fas fa-fw fa-link"
+      url: "https://poznajAzure.pl"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Gitter"
+      icon: "fab fa-fw fa-gitter"
+      url: "https://gitter.im/PoznajAzure"
 
 defaults:
   # _posts
