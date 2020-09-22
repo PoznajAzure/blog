@@ -14,7 +14,7 @@ Co udało się zebrać naszym "specjalistom" od sprzedaży:
 
 - Docelowa ilość użytkowników to 5k-50k no chyba, że mąż Anny Lewandowskiej z "healthy plan by ann" zrobi retweet to może być więcej
 - Ważnym wydarzeniem będzie losowanie na żywo i sprawdzanie wyników przez uczestników
-- Mogą być różne sposoby zdobycia biletów: quizy, losowania, inne - to się jeszcze dogada 🤦‍♂️
+- Mogą być różne sposoby zdobycia biletów: quizy, losowania, inne - to się jeszcze dogada 🤦‍♂️🤦‍♀️
 - Aplikacja musi działać już za miesiąc, ma obsłużyć tegoroczne finały i może przyszłe
 - Bardzo ważny jest podany z góry koszt utrzymania aplikacji.
 
@@ -23,12 +23,17 @@ W tym miejscu pozwolę sobie na krótką listę elementów do uwzględnienia:
 - Hosting - pamiętaj o tym, że cena robi różnicę, musi się skalować i prawie na raz mogą wejść wszyscy użytkownicy (moment losowania). Do tego dochodzi HA!
 - Bazę danych - musi obsługiwać skoki w użyciu (patrz punkt wyżej)
 - Dane użytkowników, to BARDZO wrażliwa część. Część z nich może chcieć mieć MFA!
-- SPA czy nie-SPA to też może mieć znaczenie :)
+- SPA czy nie-SPA to też może mieć znaczenie 😁
 
-Nim przejdziesz dalej
-Powyższe zadanie jest częścią inicjatywy Poznaj Azure, a poniżej masz pierwszą część rozwiązania dotyczącej bazy pod konta użytkowników. Aktualnie do naszych czytelników poszły już 4 maile, które dostaniesz pod zapisaniu się.
+## TL;WR;
+Powyższe zadanie jest częścią inicjatywy Poznaj Azure, a poniżej masz pierwszą część rozwiązania dotyczącej bazy pod konta użytkowników. Aktualnie do naszych czytelników poszło już 8 maili, które dostaniesz pod zapisaniu się.
 
 Kolejne części są publikowane raz na dwa tygodnie, tak byś Ty miał szansę zastanowić się nad rozwiązaniem, a także byśmy wspólnie mieli czas na dyskusje na Gitter.
+
+Wystarczy zapisać się na stronie [https://poznajazure.pl/](https://poznajazure.pl/), albo na samym dole tego posta 😁
+
+A teraz zapraszam Cię do propozycji rozwiązań, bo prostych odpowiedzi to u nas nie ma 😇
+
 
 ## Konta użytkowników
 ### Bez chmury
