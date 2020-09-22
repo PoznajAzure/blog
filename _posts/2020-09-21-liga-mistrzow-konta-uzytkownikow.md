@@ -2,7 +2,7 @@
 title: "Liga Mistrzów i konta użytkowników!"
 date: 2020-09-21-18T15:34:30+02:00
 header:
-  image: /assets/images/liga-mistrzow-i-konta-uzytkownikow.jpg
+  og_image: /assets/images/liga-mistrzow-i-konta-uzytkownikow.jpg
 categories:
   - champions-league
 ---
