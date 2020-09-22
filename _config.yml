@@ -18,7 +18,7 @@ locale: "pl-PL"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Zestaw artykułów i pomysłów, które omawiamy w ramach inicjatywy "Poznaj Azure"
-url: "https://poznajAzure.pl/"
+url: "https://poznajAzure.pl"
 baseurl: "blog"
 github:
   url: https://github.com/PoznajAzure/blog
