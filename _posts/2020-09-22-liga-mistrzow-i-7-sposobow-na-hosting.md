@@ -9,7 +9,7 @@ categories:
 
 {% include champions-league-article-list.md %}
 
-Dzisiaj o hostingu naszej aplikacji. Ogarnęliśmy już bazę użytkowników (całość), feature są jeszcze in-progress, bo “to się jeszcze dogada 🤦‍♂️” (patrz [specyfikacja](https://poznajazure.pl/champions-league/)), to warto wspomnieć, jak możemy “postawić” naszą aplikację, tak by chociaż makiety UI dało się serwować. Sposobów jest naprawdę dużo i pewnie każdy może być “idealny” dla Ciebie.
+Dzisiaj o hostingu naszej aplikacji. Ogarnęliśmy już bazę użytkowników (patrz lista artykułów), feature są jeszcze in-progress, bo “to się jeszcze dogada 🤦‍♂️” (patrz [specyfikacja](https://poznajazure.pl/champions-league/)), to warto wspomnieć, jak możemy “postawić” naszą aplikację, tak by chociaż makiety UI dało się serwować. Sposobów jest naprawdę dużo i pewnie każdy może być “idealny” dla Ciebie.
 
 
 
