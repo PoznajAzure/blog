@@ -9,13 +9,13 @@ categories:
 
 {% include champions-league-article-list.md %}
 
-Dzisiaj o hostingu naszej aplikacji. Ogarnęliśmy już bazę użytkowników (całość), feature są jeszcze in-progress, bo “to się jeszcze dogada 🤦‍♂️” (patrz specyfikacja https://poznajazure.pl/champions-league/ ), to warto wspomnieć, jak możemy “postawić” naszą aplikację, tak by chociaż makiety UI dało się serwować. Sposobów jest naprawdę dużo i pewnie każdy może być “idealny” dla Ciebie.
+Dzisiaj o hostingu naszej aplikacji. Ogarnęliśmy już bazę użytkowników (całość), feature są jeszcze in-progress, bo “to się jeszcze dogada 🤦‍♂️” (patrz [specyfikacja](https://poznajazure.pl/champions-league/)), to warto wspomnieć, jak możemy “postawić” naszą aplikację, tak by chociaż makiety UI dało się serwować. Sposobów jest naprawdę dużo i pewnie każdy może być “idealny” dla Ciebie.
 
 
 
 ## Poznajmy naszych kandydatów
 Zacznijmy od na 100% nie pełnej listy:
-- Azure Storage + Azure CDN + ... - idealne na statyczne strony, acz zrobienie i użycie certyfikatu dla własnej domeny tak banalne nie jest. Szczególnie, gdy chcemy przyspieszyć całość, używając Azure CDN. Ostatnio mierzył się z tym Tomasz Onyszko i efekt jego pracy dostępny jest na Twitter i w Thread Reader App: https://threadreaderapp.com/thread/1277618337753845760.html. Przy okazji jak przejrzysz wątki poboczne, to zobaczysz inne propozycje, które znacząco ułatwiają taką konfigurację.
+- Azure Storage + Azure CDN + ... - idealne na statyczne strony, acz zrobienie i użycie certyfikatu dla własnej domeny tak banalne nie jest. Szczególnie, gdy chcemy przyspieszyć całość, używając Azure CDN. Ostatnio mierzył się z tym Tomasz Onyszko i efekt jego pracy dostępny jest na Twitter i w [Thread Reader App](https://threadreaderapp.com/thread/1277618337753845760.html). Przy okazji jak przejrzysz wątki poboczne, to zobaczysz inne propozycje, które znacząco ułatwiają taką konfigurację.
 - Azure Functions - wiadomo serverless, najnowsza miłość wszystkich. No dobra już nie taka “nowa”, ale nadal “brak” serwerów korci. Czy się da? No pewnie! Czy to najlepsza opcja? Tutaj klasyczna odpowiedź konsultanta, czyli “to zależy”. Moim zadaniem nie jest najlepszy sposób na hosting całej aplikacji. Ale już np: w połączeniu ze statyczna stroną da się zrobić całkiem fajne combo. Zarządzanie nim nie będzie już jednak takie proste. A CI/CD będzie interesującym wyzwaniem 😜
 - Azure SignalR + static web page + X - jak nie jesteś ze świata dotnet to małe wyjaśnienie. SignalR aktywne umożliwia “wypychanie” wiadomości do zarejestrowanych klientów na stronach w JavaScript. Czyli server-push. W wersji Azure nie musisz prawie o niczym myśleć, tylko zapłacić 😊 No dobra to jest małe oszustwo, bo coś musi się łączyć do tego Azure SignalR, żeby “dawać” mu dane do wypchnięcia. Może być to aplikacja w dotnet/NodeJS/Java/itd, czy też Azure Function. Czyli pomysł sam w sobie może i dobry, ale wymaga jeszcze większego kombinowania niż Azure Function, a problem sprowadza się do hostingu 😁
 - Virtual Machine - Windows z IIS lub Linux z Nginx. Można? Można. Dla wielu osób najbardziej naturalny wybór. Powiem więcej. Bardzo dużo deweloperów od tego rozwiązania zaczyna, bo są do niego przyzwyczajeni. Nie po to mamy jednak chmurę, żeby używać czystych VM prawda? Szczególnie że taką maszynę trzeba zabezpieczyć samemu, a to już nie jest taka prosta sprawa. Szczególnie za pierwszym razem 🤪
@@ -35,6 +35,6 @@ Teraz czas na usunięcie części opcji, czyli proces decyzyjny. Kolejność los
 - Azure Web Apps - niby pasuje idealne, ale tanio nie jest. Za 3.5GB RAM w wersji standard, która dodaje nam deployment slot, umożliwiające wdrażanie aplikacji bez przerw dla klientów trzeba zapłacić miesięcznie prawie 550 zł. Dużo prawda?
 
 No to co nam zostało? No właśnie, wszystkie opcje wykluczyłem, nic nie zostało i tu właśnie wkraczasz Ty, czyli "the Azure ninja", ubrany cały na biało! Pamiętasz swoją plakietkę na drzwiach? No właśnie. Czas działać i pisać! Zachęcam Cię do sprawdzenia chociaż jeden z powyższych opcji. Ja już napisałem kilka plusów i minusów, ale ciekawi jesteśmy Twojej opinii. 
-Zapraszamy Cię do nas na listę mailingową (poniżej zapisy) i na Gitter, gdzie omawiamy dalsze części, czyli na https://poznajazure.pl/
+Zapraszamy Cię do nas na listę mailingową (poniżej zapisy) i na Gitter, gdzie omawiamy dalsze części, czyli na [https://poznajazure.pl/](https://poznajazure.pl/)
 
 {% include mail-banner.html %}
