@@ -1,3 +1,12 @@
+---
+title: "Liga Mistrzów i bazy danych"
+date: 2020-09-26T08:33:00+02:00
+header:
+  og_image: /assets/images/liga-mistrzow-i-bazy-danych.jpg
+categories:
+  - champions-league
+---
+
 {% include champions-league-article-list.md %}
 
 ## Gdzie trzymać dane?
