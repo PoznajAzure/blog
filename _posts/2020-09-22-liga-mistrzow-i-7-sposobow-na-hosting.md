@@ -1,6 +1,6 @@
 ---
 title: "Liga Mistrzów i 7 sposobów na hosting!"
-date: 2020-09-22-18T15:34:30+02:00
+date: 2020-09-22T15:34:30+02:00
 header:
   og_image: /assets/images/liga-mistrzow-i-7-sposobow-na-hosting.jpg
 categories:
