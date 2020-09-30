@@ -30,7 +30,10 @@ Powyższe zadanie jest częścią inicjatywy Poznaj Azure, a poniżej masz pierw
 
 Kolejne części są publikowane raz na dwa tygodnie, tak byś Ty miał szansę zastanowić się nad rozwiązaniem, a także byśmy wspólnie mieli czas na dyskusje na Gitter.
 
-Wystarczy zapisać się poniżej, na  [https://poznajazure.pl/](https://poznajazure.pl/), albo na samym dole jak skończysz czytać 😁
+Aktualnie ukazały się:
+{% include champions-league-list.md %}
+
+Wystarczy zapisać się poniżej, na [https://poznajazure.pl/](https://poznajazure.pl/), albo na samym dole jak skończysz czytać 😁
 
 {% include mail-banner-top.html %}
 
